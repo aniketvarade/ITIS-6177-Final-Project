@@ -1,0 +1,29 @@
+{
+  "name": "texttospeech",
+  "version": "1.0.0",
+  "description": "Microsoft Azure Text to Speech API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text",
+    "to",
+    "speech"
+  ],
+  "author": "Aniket Varade",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.21.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
