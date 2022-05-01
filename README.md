@@ -19,18 +19,20 @@ Microsoft Azure Text to Speech is a Speech service feature that converts text to
 * Create a free [Azure](https://azure.microsoft.com/free/cognitive-services) account.
 * Create a [Speech Resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices) to get a subscription key and endpoint.
 * After your Speech resource is deployed, select Go to resource to view and manage keys.
-* Create a .env file in the project directory and add the following contents:
-```
-API_KEY=<YOUR_API_KEY>
-VOICE_LIST_API_ENDPOINT=https://<YOUR_API_REGION>.tts.speech.microsoft.com/cognitiveservices/voices/list
-API_REGION=<YOUR_API_REGION>
-```
+
 ---
 ## Installation
 Clone the repository
 ```
 $ git clone https://github.com/aniketvarade/ITIS-6177-Final-Project.git
 $ cd ITIS-6177-Final-Project
+```
+
+Create a .env file in the project directory and add the following contents:
+```
+API_KEY=<YOUR_API_KEY>
+VOICE_LIST_API_ENDPOINT=https://<YOUR_API_REGION>.tts.speech.microsoft.com/cognitiveservices/voices/list
+API_REGION=<YOUR_API_REGION>
 ```
 
 Install dependencies
